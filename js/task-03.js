@@ -30,3 +30,4 @@ getEl('.gallery').style.display = 'flex';
 getEl('.gallery').style.flexWrap = 'wrap';
 getEl('.gallery').style.gap = '30px';
 getEl('.gallery').style.justifyContent = 'center';
+getEl('.gallery').style.alignItems = 'center';
