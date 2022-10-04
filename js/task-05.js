@@ -1,6 +1,6 @@
-const getEl = selector => document.querySelector(selector);
+const input = document.querySelector('#name-input');
 
-getEl('#name-input').addEventListener('input', event => {
-  getEl('#name-output').textContent =
-    event.target.value === '' ? 'Anonymous' : event.target.value;
+input.addEventListener('input', () => {
+  document.querySelector('#name-output').textContent =
+    input.value === '' ? 'Anonymous' : input.value;
 });
