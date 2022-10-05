@@ -4,5 +4,4 @@ console.dir(input);
 
 input.addEventListener('input', () => {
   getEl('#text').style.fontSize = input.value + 'px';
-  console.log(1 + 1);
 });

@@ -14,6 +14,7 @@ function createBoxes(amount) {
     newDiv.style.width = startSize + 'px';
     newDiv.style.height = startSize + 'px';
     newDiv.style.backgroundColor = getRandomHexColor();
+
     startSize += 10;
   }
 }

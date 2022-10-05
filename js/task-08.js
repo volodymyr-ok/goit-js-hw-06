@@ -1,6 +1,5 @@
 const getEl = selector => document.querySelector(selector);
 const form = getEl('.login-form');
-console.log(form);
 
 form.addEventListener('submit', event => {
   event.preventDefault();
@@ -16,5 +15,5 @@ form.addEventListener('submit', event => {
   result.password = password.value;
   console.log(result);
 
-  event.currentTarget.reset();
+  event.target.reset();
 });
